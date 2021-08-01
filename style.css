@@ -1,0 +1,76 @@
+* {
+	font-family: '나눔고딕', '맑은 고딕';
+}
+body {
+	margin: 0;
+	background-color : #FcFcFc;
+}
+#toolbar {
+	background-color: #21ced1;
+	color: #FFFFFF;
+	z-index:1;
+	display: inline-block;
+	position: fixed;
+	width: 100%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	vertical-align: middle;
+	overflow: hidden;
+	text-align: center;
+	font-size: 3vw;
+}
+#topbar {
+	background-color: #e8ac33;
+	color: #FFFFFF;
+	z-index:2;
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	vertical-align: middle;
+	overflow: hidden;
+	text-align: center;
+}
+#title {
+	font-size: 7vw;
+}
+#subtitle {
+	padding-top: 2%;
+	font-size: 4vw;
+}
+#section1 {
+	padding: 1% 5%;
+}
+#section2 {
+	border-style: solid;
+	border-radius: 0.5em;
+	border-color: #000000;
+	margin: 5% 0;
+}
+#sectiontitle {
+	font-size: 6vw;
+	padding: 2% 0 0 2%;
+}
+#section3 {
+	padding: 0 5% 0 5%;
+	font-size: 4vw;
+}
+#instalink {
+	color: #FFFFFF;
+	background-color: #DD3333;
+	text-decoration: none;
+	padding: 1%;
+	border-radius: 0.5em;
+}
+#search {
+	margin-top: 5%;
+	width: 90%;
+	font-size: 3vw;
+	padding: 2%;
+}
+summary {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	color: #5522FF
+}
