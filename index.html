@@ -4,6 +4,7 @@
 		<title>applemangojuices2007</title>
 		<meta charset="utf-8">
 		<script src="script.js"></script>
+		<script src="igtvlist.js"></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
@@ -54,8 +55,12 @@
 			<div id="section2">
 				<div id="sectiontitle">IGTV 동영상 목록</div>
 				<div id="section3">
-					<input id="search" type="text" placeholder="검색(준비중)">
-					<p>준비중</p>
+					<input id="search" type="text" placeholder="검색" onkeyup="filter()">
+					<details>
+						<summary>펼치기/접기(검색하려면 펼치세요)</summary>
+						<div class="igtv"></div>
+					</details>
+					<script>load();</script>
 				</div>
 			</div>
 		</div>

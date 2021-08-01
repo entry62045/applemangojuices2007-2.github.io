@@ -72,3 +72,16 @@ summary {
 	margin-bottom: 2%;
 	color: #5522FF
 }
+.item {
+	margin-top: 2%;
+	margin-left: 2%;
+	font-size: 3vw;
+}
+.item > a {
+	cursor: point;
+	text-decoration: none;
+	color: #000000;
+}
+.item > a:hover {
+	color: #00FF00;
+}
