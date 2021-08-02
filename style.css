@@ -17,6 +17,10 @@ body {
 	text-align: center;
 	font-size: 3vw;
 }
+#toolbarlink {
+	color: #FFFFFF;
+	text-decoration: none;
+}
 #topbar {
 	background-color: #e8ac33;
 	color: #FFFFFF;
@@ -84,4 +88,8 @@ summary {
 }
 .item > a:hover {
 	color: #00FF00;
+}
+#hits {
+	width: 70%;
+	height: 70%;
 }
